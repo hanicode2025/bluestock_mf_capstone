@@ -8,13 +8,13 @@ RAW.mkdir(parents=True, exist_ok=True)
 
 # Funds to fetch
 funds = {
-    "HDFC_Top100":     125497,
-    "SBI_Bluechip":    119551,
-    "ICICI_Bluechip":  120503,
+    "SBI_Bluechip":    119598,
+    "ICICI_LargeCap":  120586,
     "Nippon_LargeCap": 118632,
-    "Axis_Bluechip":   119092,
-    "Kotak_Bluechip":  120841,
+    "Axis_LargeCap":   120465,
+    "Mirae_LargeCap":  118834,
 }
+
 
 for fund_name, code in funds.items():
     print(f"Fetching {fund_name} ({code})...")
